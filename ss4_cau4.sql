@@ -1,12 +1,3 @@
-CREATE TABLE cau3.products(
-                              id SERIAL PRIMARY KEY,
-                              name VARCHAR(50) NOT NULL,
-                              category VARCHAR(50) NOT NULL,
-                              price DECIMAL(12,2),
-                              stock INT,
-                              manufacturer VARCHAR (20)
-);
-
 CREATE TABLE cau3.products (
                                id SERIAL PRIMARY KEY,
                                name VARCHAR(50) NOT NULL,
